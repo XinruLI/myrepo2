@@ -57,4 +57,22 @@ person
 ?content
 ?GET
 content_type(random)
-content(random, as="parsed")
+class(content(random, as="parsed"))
+class(person)
+
+num_results <- 10
+args <- list(results = num_results, gender = "female", nat = "CH")
+random_names <- GET("http://api.randomuser.me/",
+                    query = args)
+output <- content(random_names, as = 'parsed')
+length(output$results)
+output$results[[10]]
+
+sapply(1:10, function(x) c(output$results[[x]]$gender, output$results[[x]]$name) )
+library(jsonlite)
+##################
+library(rvest)
+library(xml2)
+frozen <- html("http://www.imdb.com/title/tt2294629/")
+itals <- html_nodes(frozen, "span.itemprop")
+html_text(itals)
