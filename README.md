@@ -5,5 +5,5 @@
  ddR pck distribute the data?
  htmlwedges interactive graphs  ?crosstalk (filtering link brush)
  wrap your model: KWB-R/kwb.wtap (github) ?USGS-R
- broom make model into tidy data Book: R for Data Science
- 
+ broom pck make model into tidy data  (on github) Book: R for Data Science 
+ MAVIS: shiny for meta-analysis
