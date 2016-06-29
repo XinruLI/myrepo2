@@ -4,4 +4,6 @@
  RcppParallel for parallel computing with c
  ddR pck distribute the data?
  htmlwedges interactive graphs  ?crosstalk (filtering link brush)
- wrap your model: KWB-R/kwb.wtap (github)
+ wrap your model: KWB-R/kwb.wtap (github) ?USGS-R
+ broom make model into tidy data Book: R for Data Science
+ 
