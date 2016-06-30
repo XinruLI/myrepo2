@@ -9,4 +9,7 @@
  MAVIS: shiny for meta-analysis
  Gradient Boosted Trees Models (GBM) github ebay bonsai
  ranger: A fast implementation of random forests for high dimensional data
-superheat: a good package to make heatmaps
+superheat: a good package to make heatmaps (available on github)
+rstudio: ? paramterized report? flexdashboard
+data.gov
+?rcloud
